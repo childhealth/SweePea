@@ -1,49 +1,8 @@
 {
-  "report": "User Report",
-  "at": "2017-07-16T19:20:30+00:00",
-  "parameters": {},
-  "results": 
-  {
-    "total": 45,
-    "types":
-    [
-      {"type": "SYSADMIN", "count": 4},
-      {"type": "COMMISSIONER", "count": 20},
-      {"type": "PROVIDER", "count": 45},
-      {"type": "CITIZEN", "count": 2012}
-    ],
-    "organisations": 
-    [
-      {
-        "organisation": "R1C",
-        "types":
-        [
-          {"type": "SYSADMIN", "count": 4},
-          {"type": "COMMISSIONER", "count": 0},
-          {"type": "PROVIDER", "count": 0},
-          {"type": "CITIZEN", "count": 0}
-        ]
-      },
-      {
-        "organisation": "AB4",
-        "types":
-        [
-          {"type": "SYSADMIN", "count": 0},
-          {"type": "COMMISSIONER", "count": 20},
-          {"type": "PROVIDER", "count": 0},
-          {"type": "CITIZEN", "count": 0}
-        ]
-      },
-      {
-        "organisation": "SD4",
-        "types": 
-        [
-          {"type": "SYSADMIN", "count": 0},
-          {"type": "COMMISSIONER", "count": 0},
-          {"type": "PROVIDER", "count": 45},
-          {"type": "CITIZEN", "count": 2012}
-        ]
-      }
-    ]
-  }
+  "id": "R1C",
+  "name": "Solent NHS Trust",
+  "address": "SOLENT NHS TRUST HEADQUARTERS, HIGHPOINT VENUE, BURSLEDON ROAD, SOUTHAMPTON, HAMPSHIRE, SO19 8BR",
+  "telephone": "0300 123 4156",
+  "email": "communications@solent.nhs.uk",
+  "role": "PROVIDER"
 }
