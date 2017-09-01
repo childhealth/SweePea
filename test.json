@@ -1,11 +1,49 @@
 {
-  "userAccount": "testuser",
-  "name": "Test user",
-  "email": "test@test.com",
-  "identityProvider": "https://digital.nhs.uk/idp",
-  "identity": "user01",
-  "type": "SYSADMIN",
-  "organisation": "NHSDigital",
-  "role": "ADMIN",
-  "enabled": true
+  "report": "User Report",
+  "at": "2017-07-16T19:20:30+00:00",
+  "parameters": {},
+  "results": 
+  {
+    "total": 45,
+    "types":
+    [
+      {"type": "SYSADMIN", "count": 4},
+      {"type": "COMMISSIONER", "count": 20},
+      {"type": "PROVIDER", "count": 45},
+      {"type": "CITIZEN", "count": 2012}
+    ],
+    "organisations": 
+    [
+      {
+        "organisation": "R1C",
+        "types":
+        [
+          {"type": "SYSADMIN", "count": 4},
+          {"type": "COMMISSIONER", "count": 0},
+          {"type": "PROVIDER", "count": 0},
+          {"type": "CITIZEN", "count": 0}
+        ]
+      },
+      {
+        "organisation": "AB4",
+        "types":
+        [
+          {"type": "SYSADMIN", "count": 0},
+          {"type": "COMMISSIONER", "count": 20},
+          {"type": "PROVIDER", "count": 0},
+          {"type": "CITIZEN", "count": 0}
+        ]
+      },
+      {
+        "organisation": "SD4",
+        "types": 
+        [
+          {"type": "SYSADMIN", "count": 0},
+          {"type": "COMMISSIONER", "count": 0},
+          {"type": "PROVIDER", "count": 45},
+          {"type": "CITIZEN", "count": 2012}
+        ]
+      }
+    ]
+  }
 }
