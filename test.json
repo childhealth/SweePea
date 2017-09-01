@@ -1,6 +1,12 @@
 {
-  "username": "user01",
-  "password": "************",
-  "email": "test@test.com",
-  "enabled": true
+  "report": "Identity Report",
+  "at": "2017-07-16T19:20:30+00:00",
+  "parameters": {},
+  "results":
+  {
+    "total": 945,
+    "enabled": 870,
+    "disabled": 75,
+    "reset": 55
+  }
 }
