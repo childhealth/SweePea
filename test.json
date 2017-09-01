@@ -1,12 +1,11 @@
 {
-  "report": "Identity Report",
-  "at": "2017-07-16T19:20:30+00:00",
-  "parameters": {},
-  "results":
-  {
-    "total": 945,
-    "enabled": 870,
-    "disabled": 75,
-    "reset": 55
-  }
+  "userAccount": "testuser",
+  "name": "Test user",
+  "email": "test@test.com",
+  "identityProvider": "https://digital.nhs.uk/idp",
+  "identity": "user01",
+  "type": "SYSADMIN",
+  "organisation": "NHSDigital",
+  "role": "ADMIN",
+  "enabled": true
 }
