@@ -1,9 +1,36 @@
 {
-  "id": "c0fcd984-1cca-43d7-b7ef-f765ec03b643",
-  "type": "Informational",
-  "user-id": "user01",
-  "action": "ORGANISATION_REPORT",
-  "subject": {"type": "", "id": ""},
-  "outcome": "success",
-  "datetime": "2017-07-16T19:20:30+00:00"
+  "report": "Audit Log Report",
+  "at": "2017-07-16T19:20:30+00:00",
+  "parameters":
+  {
+    "from": "2017-01-16T19:20:30+00:00",
+    "to": "2017-01-16T19:20:30+00:00",
+    "types": ["Error", "Informational"],
+    "users": ["user01", "user02"],
+    "actions": ["AUDIT_LOG_REPORT"],
+    "subjects": []
+  },
+  "results": 
+  {
+    "audit-records": [
+      {
+        "id": "c0fcd984-1cca-43d7-b7ef-f765ec03b643",
+        "type": "Informational",
+        "user-id": "user01",
+        "action": "ORGANISATION_REPORT",
+        "subject": "",
+        "outcome": "success",
+        "datetime": "2017-07-16T19:20:30+00:00"
+      },
+      {
+        "id": "c0fcd984-1cca-43d7-b7ef-f765ec03b648",
+        "type": "Informational",
+        "user-id": "user01",
+        "action": "ORGANISATION_REPORT",
+        "subject": "",
+        "outcome": "success",
+        "datetime": "2017-07-24T19:20:30+00:00"
+      }
+    ]
+  }
 }
